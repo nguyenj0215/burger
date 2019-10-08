@@ -1,0 +1,80 @@
+  body {
+    background: #faebd7;
+  }
+  li {
+    list-style-type: none;
+  }
+
+  /* Burger display DIVs */
+  .label {
+    position: relative;
+    font-weight: bold;
+  }
+  .notDevouredDiv, .devouredDiv {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    width: 30%;
+  }
+  .notDevouredDiv {
+    left: 5%;
+  }
+  .devouredDiv {
+    right: 5%;
+  }
+  .burgerName {
+    width: 0%;
+    margin: 0;
+    padding: 0;
+  }
+  .change-devoured, .delete-burger {
+    width: 25%;
+    background-color: #4aaaa5;
+    color: white;
+    border: 2px solid black;
+  }
+  .eachBurger {
+    border: 1px solid black;
+    margin-bottom: 5px;
+  }
+
+  /* Add burger display DIV */
+  .addBurgerDiv {
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    width: 20%;
+    text-align: center;
+    padding: 30px;
+  }
+  #ca {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    margin-top: 1%;
+    border: 1px solid black;
+    font-size: 16px;
+  }
+  .create-form {
+    width: 100%;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .addBurger {
+      width: 40%;
+      height: 40px;
+      background-color: #4aaaa5;
+      color: white;
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 4px;
+      border: 2px solid black;
+  }
+  .burgerAddNameLabel{
+      font-weight: bold;
+      font-size: 24px;
+  }
+
+  
