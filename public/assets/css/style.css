@@ -9,10 +9,13 @@
   .label {
     position: relative;
     font-weight: bold;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-size: 26px;
   }
   .notDevouredDiv, .devouredDiv {
     position: absolute;
-    top: 10%;
+    top:10%;
     text-align: center;
     width: 30%;
   }
@@ -23,26 +26,41 @@
     right: 5%;
   }
   .burgerName {
-    width: 0%;
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
     margin: 0;
+    margin-bottom: 5px;
     padding: 0;
   }
   .change-devoured, .delete-burger {
-    width: 25%;
+    display: inline-block;
+    font-size: 14px;
     background-color: #4aaaa5;
     color: white;
     border: 2px solid black;
   }
+  .change-devoured {
+    width: 35%;
+  }
+  .delete-burger {
+    width: 25%;
+  }
   .eachBurger {
-    border: 1px solid black;
     margin-bottom: 5px;
+    border: 2px solid white;
+    padding: 10px;
+    padding-right: 0;
+    padding-left: 0;
   }
 
   /* Add burger display DIV */
   .addBurgerDiv {
     position: absolute;
     top: 35%;
-    left: 37%;
+    left: 38%;
     width: 20%;
     text-align: center;
     padding: 30px;
