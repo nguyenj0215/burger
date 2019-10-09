@@ -7,7 +7,6 @@ function printQuestionMarks(num) {
     for (var i = 0; i < num; i++) {
         arr.push("?");
     }
-
     return arr.toString();
 }
 
@@ -17,13 +16,10 @@ function objToSql(ob) {
 
     for (var key in ob) {
         var value = ob[key];
-
         if (Object.hasOwnProperty.call(ob, key)) {
-
             if (typeof value === "string" && value.indexOf(" ") >= 0) {
                 value = "'" + value + "'";
             }
-
             arr.push(key + "=" + value);
         }
     }
@@ -42,7 +38,8 @@ var orm = {
             cb(result);
         });
     },
-    //insert one burger
+
+    //insert one new burger
     create: function (table, cols, vals, cb) {
         var queryString = "INSERT INTO " + table;
 
@@ -63,7 +60,8 @@ var orm = {
             cb(result);
         });
     },
-    //update one burger
+
+    //update one burgers devoured state
     update: function(table, objColVals, condition, cb) {
         var queryString = "UPDATE " + table;
     
@@ -81,6 +79,8 @@ var orm = {
           cb(result);
         });
       },
+
+      //delete one burger
       delete: function(table, condition, cb) {
         var queryString = "DELETE FROM " + table;
         queryString += " WHERE ";

@@ -1,10 +1,17 @@
   body {
-    background: #faebd7;
+    background: black;
+    color: white;
   }
   li {
     list-style-type: none;
   }
-
+  /* Burger Image */
+  .burgerImageDiv {
+    position: absolute;
+    top: 7%;
+    left: 41%;
+    opacity: 0.8;
+  }
   /* Burger display DIVs */
   .label {
     position: relative;

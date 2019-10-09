@@ -5,7 +5,7 @@ var router = express.Router();
 // Import the model (cat.js) to use its database functions.
 var burger = require("../models/burgers.js");
 
-//Get all
+//Get all burgers
 router.get("/", function (req, res) {
     burger.all(function (data) {
         var hbsObject = {
@@ -45,7 +45,6 @@ router.put("/api/burgers/:id", function (req, res) {
         }
     });
 });
-
 
 router.delete("/api/burgers/:id", function(req, res) {
     var condition = "id = " + req.params.id;
