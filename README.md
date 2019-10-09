@@ -11,5 +11,5 @@ To use the burger Application:
     3) You can eat a burger on the to eat side by hitting the at burger button, which will move it to the burgers devoured section
     4) You can delete burgers in either section by hitting its delete button
 
-Deployed Heroku link: [Deployed Heroku]()
+Deployed Heroku link: [Deployed Heroku](https://calm-meadow-14367.herokuapp.com/)
 Link to the github repo: [GitHub Repo](https://github.com/nguyenj0215/burger)
