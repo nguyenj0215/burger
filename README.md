@@ -1,6 +1,6 @@
 # burger
 
-The burger application is a full-stack application
+The burger application is a full-stack application that allows for a user to click on a button to eat a burger, and move in to the section of the page containing burgers that have been decvoured. A user may also add their own burgers using the input textbox and delete any existing burgers in the devoured or to be eaten section.
 
 The application was written using html, handlebars, css, javascript, jquery, mysql, expressJS, and heroku.
 
